@@ -19,7 +19,7 @@ def realizar_operacao(operacao, num1, num2):
     elif operacao == "3":
         mult = num1 * num2
         return mult
-    elif operacao == "3":
+    elif operacao == "4":
         divis = num1 / num2
         return divis
 
