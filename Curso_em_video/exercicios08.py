@@ -1,7 +1,7 @@
-metros = input("Digite um valor em metros: \n")
+metros = float(input("Digite um valor em metros: \n").replace(",", "."))
 
-mm = float(metros) * 1000
-cm = float(metros) * 100
+mm = metros * 1000
+cm = metros * 100
 
-print(f"{metros} metros é igual a {cm} centímetros")
-print(f"{metros} metros é igual a {mm} milímetros")
+print(f"{metros} metros é igual a {cm:.0f} centímetros")
+print(f"{metros} metros é igual a {mm:.0f} milímetros")

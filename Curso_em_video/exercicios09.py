@@ -7,5 +7,5 @@
 
 n1 = int(input("Digite um número: \n"))
 
-for i in range(10):
-    print(f"{n1}x{i+1} = {n1 * (i + 1)} \n")
+for i in range(1, 11):
+    print(f"{n1}x{i} = {n1 * (i)}")

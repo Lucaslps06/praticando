@@ -3,4 +3,4 @@ nota2 = float(input("digite a nota da segunda prova: \n").replace(",", "."))
 
 media = (nota1 + nota2) / 2
 
-print(f"A media é {media}")
+print(f"A media é {media:.1f}")

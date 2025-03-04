@@ -1,4 +1,4 @@
-real = float(input("Quantos reais você tem? \n"))
+real = float(input("Quantos reais você tem? \n").replace(",", "."))
 
 dolar = real / 5.89
 
