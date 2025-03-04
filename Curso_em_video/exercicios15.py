@@ -10,6 +10,6 @@ pg_km = km_rodados * 0.15
 
 linha_inicio_fim()
 print(
-    f"O total a ser pagos é R${pg_dias + pg_km:.2f} \n R${pg_dias:.2f}referente aos dias alugados \n R${pg_km}referente aos quilometros rodados"
+    f"O total a ser pagos é R${pg_dias + pg_km:.2f} \nR${pg_dias:.2f} referente aos dias alugados \nR${pg_km} referente aos quilometros rodados"
 )
 linha_inicio_fim()
