@@ -1,7 +1,7 @@
 import sys
 
 
-def obter_number_input(msg):
+def obter_number_input(msg: str) -> int:
     num = input(msg)
     if num.isalpha():
         print("Digite apenas número")
