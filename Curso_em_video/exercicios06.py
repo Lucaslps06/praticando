@@ -1,4 +1,4 @@
-number_imput = input("Digite um número \n")
+number_imput = input("Digite um número: \n")
 
 if number_imput.isnumeric():
     number = int(number_imput)
